@@ -7,13 +7,13 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 greetings = [
-    'Good morning!',
-    'Hello!',
-    'Hi there!',
-    'Greetings!',
-    'Welcome!'
-  ]
-  
-  greetings.each do |greeting|
-    Message.create(greeting: greeting)
-  end
+  'Good morning!',
+  'Hello!',
+  'Hi there!',
+  'Greetings!',
+  'Welcome!'
+]
+
+greetings.each do |greeting|
+  Message.create(greeting:)
+end
